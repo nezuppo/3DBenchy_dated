@@ -26,6 +26,12 @@ $ sudo apt install xvfb
 
 [[3DBenchy](http://www.3dbenchy.com/)] のサイトからリンクをたどり、ダウンロードした 3DBenchy.stl を `work/` ディレクトリに保存
 
+Thingiverse からなら以下でダウンロードできます。
+
+```
+$ wget https://cdn.thingiverse.com/assets/7d/fc/6e/33/fe/3DBenchy.stl
+```
+
 # 日付を設定
 
 `src/date.scad` ファイル 1行目の date に日付を設定
@@ -55,7 +61,7 @@ make を実行するだけです。
 $ make
 ```
 
-work/ に作業ファイルと共に日付が付いた 3DBenchy STL ファイルが生成されています。
+work/ に作業ファイルと共に日付が付いた 3DBenchy STL ファイル `3DBenchy_dated.stl` が生成されています。
 
 ```
 $ ls -la work/
