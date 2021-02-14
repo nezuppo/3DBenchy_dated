@@ -17,7 +17,7 @@
 # 必要なパッケージをインストール
 
 ```
-$ sudo apt install oepnscad
+$ sudo apt install openscad
 $ sudo apt install meshlab
 $ sudo apt install xvfb
 ```
